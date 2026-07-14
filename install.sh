@@ -2,7 +2,7 @@
 # Atlasflow CLI installer.
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/atlasflowlabs/atlasflow-cli/main/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/atlasflowlabs/cli/main/install.sh | sh
 #
 # Pin a version:
 #   curl -fsSL .../install.sh | sh -s -- --version v0.1.0
@@ -12,7 +12,7 @@
 #   INSTALL_DIR=/usr/local/bin         Where to install the binary
 set -euo pipefail
 
-REPO="atlasflowlabs/atlasflow-cli"
+REPO="atlasflowlabs/cli"
 VERSION="${VERSION:-latest}"
 INSTALL_DIR="${INSTALL_DIR:-/usr/local/bin}"
 
