@@ -1,4 +1,4 @@
-# atlasflow-cli
+# atlasflow cli
 
 Public distribution home for the [Atlasflow](https://atlasflow.com) CLI.
 
@@ -9,13 +9,13 @@ This repo hosts GitHub Releases (binaries + checksums) and the install script.
 **Linux / macOS** (amd64 / arm64):
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/atlasflowlabs/atlasflow-cli/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/atlasflowlabs/cli/main/install.sh | bash
 ```
 
 Install a specific version:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/atlasflowlabs/atlasflow-cli/main/install.sh | bash -s -- --version v0.1.0
+curl -fsSL https://raw.githubusercontent.com/atlasflowlabs/cli/main/install.sh | bash -s -- --version v0.1.0
 ```
 
 The installer downloads the release archive for your OS/arch, verifies the
